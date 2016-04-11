@@ -1,6 +1,7 @@
 body{
     padding-top: 60px;
     padding-bottom: 40px;
+    background-color: rgba(220, 243, 223, 0.65);
 }
 
 .main{
@@ -39,7 +40,7 @@ body{
 h2 {
     text-align: center;
     margin-top: 0;
-}
+    }
 }
 
 .form-signin input[type="text"]
@@ -49,3 +50,5 @@ h2 {
     margin-bottom: 15px;
     padding: 7px 9px;
 }
+
+
