@@ -2,7 +2,7 @@
   "name": "TeamProve2",
   "private": true,
   "version": "0.0.0",
-  "description": "a Sails application",
+  "description": "TeamProve - An off field training journal",
   "dependencies": {
     "bcrypt": "^0.8.5",
     "ejs": "0.8.4",
