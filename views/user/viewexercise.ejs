@@ -1,0 +1,30 @@
+<div class='container'>
+
+    <h3>Exercise Records</h3>
+    For <%= user.name %>
+    <table class='table'>
+        <p></p>
+        <p></p>
+        <tr>
+            <th>Exercise</th>
+            <th>Weight</th>
+            <th>Repetitions</th>
+            <th>Sets</th>
+            <th>Intensity %</th>
+            <th>Date Completed</th>
+            <th>Coach Comment</th>
+            <th></th>
+        </tr>
+
+        <td><%= user.exercise %></td>
+        <td><%= user.weight %></td>
+        <td><%= user.repetitions %></td>
+        <td><%= user.sets %></td>
+        <td><%= user.intensity %></td>
+        <td><%= user.date %></td>
+        <td><%= user.coachcomment %></td>
+
+        <td><a href="/user/comment/<%= user.id %>" class="btn btn-sm btn-warning">Coach Comment</a></td>
+    </table>
+
+</div>

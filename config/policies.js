@@ -25,6 +25,8 @@ module.exports.policies = {
 		show: "userViewProfile",
 		edit: "userViewProfile",
 		update: "userViewProfile",
+		exercise: "userViewProfile",
+		viewexercise: "userViewProfile",
 		'*': "admin"
 	}
   /*

@@ -42,6 +42,36 @@ module.exports = {
             defaultsTo: false
         },
 
+        age: {
+            type: 'string'
+        },
+
+        phone: {
+            type: 'string'
+        },
+
+        exercise: {
+            type: 'string'
+        },
+        weight: {
+            type: 'string'
+        },
+        repetitions: {
+            type: 'string'
+        },
+        sets: {
+            type: 'string'
+        },
+        intensity: {
+            type: 'string'
+        },
+        date: {
+            type: 'string',
+        },
+        coachcomment: {
+            type: 'string'
+        },
+
         toJSON: function() {
             var obj = this.toObject();
             delete obj.password;
@@ -75,7 +105,6 @@ module.exports = {
         require('bcrypt').hash(values.password, 5, function passwordEncrypted(err, encryptedPassword) {
             if (err) return next(err);
             values.encryptedPassword = encryptedPassword;
-            // values.online= true;
             next();
         });
     }

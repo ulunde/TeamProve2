@@ -14,7 +14,7 @@ body{
     margin-bottom: 30px;
     text-align: center;
     font-weight: normal;
-    color: gray;
+    color: whitesmoke;
 }
 
 .container .gray{
@@ -32,7 +32,7 @@ body{
     padding: 19px 29px 29px;
     margin: 0 auto 20px;
     margin-top: 20px;
-    background-color: darkgray;
+    background-color: whitesmoke;
     border: 1px solid black;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;

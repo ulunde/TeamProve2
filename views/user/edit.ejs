@@ -1,9 +1,17 @@
 <form action="/user/update/<%= user.id %>" method="POST" class="form-signin">
     <h2> User editing </h2>
-
+    Name:
     <input value="<%= user.name %>" name="name" type="text" class="form-control"/>
+    Squad:
     <input value="<%= user.title %>" name="title" type="text" class="form-control"/>
+    Age:
+    <input value="<%= user.age %>" name="age" type="text" class="form-control"/>
+    Email Address:
     <input value="<%= user.email %>" name="email" type="text" class="form-control"/>
+    Telephone Number:
+    <input value="<%= user.phone %>" name="phone" type="text" class="form-control"/>
+
+
     <% if (session.authenticated && session.User.admin) { %>
     <% if (user.admin) { %>
     <input type="hidden" name="admin" value="unchecked">

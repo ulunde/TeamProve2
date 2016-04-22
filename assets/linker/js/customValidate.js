@@ -25,7 +25,7 @@ $(document).ready(function(){
         },
         success: function(element) {
             element
-                .text('OK!').addClass('valid')
+                .text('Looks good!').addClass('valid')
         }
     });
 

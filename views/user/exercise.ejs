@@ -1,0 +1,18 @@
+<form action="/user/update/<%= user.id %>" method="POST" class="form-signin">
+    <h2> Add Exercise </h2>
+    Exercise:
+    <input value="<%= user.exercise %>" name="exercise" type="text" class="form-control"/>
+    Weight:
+    <input value="<%= user.weight %>" name="weight" type="text" class="form-control"/>
+    Repetitions:
+    <input value="<%= user.repetitions %>" name="repetitions" type="text" class="form-control"/>
+    Sets:
+    <input value="<%= user.sets %>" name="sets" type="text" class="form-control"/>
+    Intensity %:
+    <input value="<%= user.intensity %>" name="intensity %" type="text" class="form-control"/>
+    Date Completed (DD.MM.YY)
+    <input value="<%= user.date %>" name="date" type="text" class="form-control"/>
+
+    <input type="submit" value="Proceed" class="btn btn-lg btn-primary btn-block"/>
+    <input type="hidden" name="_csrf" value="<%= _csrf %>" />
+</form>
